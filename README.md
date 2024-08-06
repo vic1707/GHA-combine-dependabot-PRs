@@ -1,5 +1,7 @@
 # GHA-combine-PRs
 
+# Archived, [dependabot has a config for grouping](https://github.blog/changelog/2023-06-30-grouped-version-updates-for-dependabot-public-beta/)
+
 First I wan't to give credit to [hrvey's combine prs workflow](https://github.com/hrvey/combine-prs-workflow) who created the original workflow and most of the logic.
 
 The base is identical, I just added typescript support, removed the graphql request (because it's not typesafe) and added a few more features such as incremental updates.
